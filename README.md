@@ -1,1 +1,2 @@
-"# Github-Configuration" 
+"# Github-Configuration"
+## Github Configuration
