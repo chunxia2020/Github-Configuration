@@ -1,7 +1,11 @@
 
 # Configure Github on ATOM
 
+<<<<<<< HEAD
   - Follow this YouTube video [link](https://www.youtube.com/watch?v=7au7l1qa2so) for setting up.
+=======
+  - Simply follow this YouTube video [link](https://www.youtube.com/watch?v=7au7l1qa2so) and [link](https://www.youtube.com/watch?v=6HsZMl-qV5k) for setting up.
+>>>>>>> 0689fb428a9f55bf72765569a9c8b46f5d21b2ad
 
 # Markdown with ATOM
   - Markdown works with file with `.md` extension
