@@ -8,9 +8,8 @@
 
 **2. Workflow between Upstream-Origin-Local Computer:**
 
-The relationship between the three is shown below
-
-       <img src="https://github.com/chunxia2020/Github-Configuration/blob/master/Images/Workflow.png" width="300" height="300">
+The relationship between the three is shown below:
+<img src="https://github.com/chunxia2020/Github-Configuration/blob/master/Images/Workflow.png" width="300" height="300">
 1. **Fork a repository** from Upstream to My repository copy. This is done in GitHub Web
   - Public: Just fork it
   - Private: Get invitation link, then fork it
