@@ -61,6 +61,7 @@ The relationship between the three is shown below:
 
     - Merge changes from the Upstream: This has to be done with git commands and ATOM
        1. Pull from Upstream using git commands:
+       ATOM needs to be open
        ```ruby
        # ----- Add remote upstream --------------
        $ git remote add upstream git@github.com:jetouma/chips.git # pull from upstream SSH
@@ -75,3 +76,7 @@ The relationship between the three is shown below:
        # ----- Show all the history --------------
        $ git log
        ```
+       2. Merge changes in ATOM:
+          - In ATOM, simply choose the change one wants, stage changes
+          - Then, save file again to get rid of formatting issue, stage changes
+          - Commit all the changes and push to my repository
