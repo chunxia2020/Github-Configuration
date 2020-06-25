@@ -8,4 +8,5 @@
 
 **2. Workflow between Upstream-Origin-Local Computer:**
   - The relationship between the three is shown below
-  ![](https://github.com/chunxia2020/Github-Configuration/blob/master/Images/Workflow.png){:height="20%" width="20%"}
+  
+  <img src="https://github.com/chunxia2020/Github-Configuration/blob/master/Images/Workflow.png" width="100" height="100">
