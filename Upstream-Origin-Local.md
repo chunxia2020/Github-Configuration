@@ -48,14 +48,14 @@ The relationship between the three is shown below:
        - Git command:
      ```ruby
      # --- Before using commit command ---
-   $ git add            # Add changes
-   $ git rm             # remove files from the working tree and the index
-   $ git status         # Track changes in the branch to commit
+     $ git add            # Add changes
+     $ git rm             # remove files from the working tree and the index
+     $ git status         # Track changes in the branch to commit
      # --- commit ------------------------
-   $ git commit -a      # stage all files
+     $ git commit -a      # stage all files
      # --- push --------------------------
-   $ git push
-   $ git status         # Track changes in the branch to commit
+     $ git push
+     $ git status         # Track changes in the branch to commit
      ```
     Then submit pull request to the upstream in GitHub Web
 
