@@ -18,7 +18,7 @@
      - `Github Push`
      - `Github Log`
      - `Github Fetch`
-  - **Setting up Github with ATOM: Method 2**
+  - **Setting up Github with ATOM: Method 2** No extra packages are needed to do this
     1. Set up SSH key using git commands
     2. `ctrl+shift+p`, type `GitHub Clone`, then put down SSH from GitHub website and a targeted folder location
     3.1 Git-Set your username:
