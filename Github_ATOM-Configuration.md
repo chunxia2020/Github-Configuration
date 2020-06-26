@@ -21,6 +21,14 @@
   - **Setting up Github with ATOM: Method 2**
     1. Set up SSH key using git commands
     2. `ctrl+shift+p`, type `GitHub Clone`, then put down SSH from GitHub website and a targeted folder location
+    3.1 Git-Set your username:
+    ```python
+    git config --global user.name "chunxia2020" # Username of GitHub
+    ```
+    3.2 Git-Set your email address:
+    ```python
+    git config --global user.email "chunxia@knights.ucf.edu" # email of GitHub
+    ```
     3. Go to GitHub tab, !!select the floder name in the drop down menu!!, then click login!
     4. Go to https://github.atom.io and copy token to login in atom
     5. Now `push` and `pull` should appear on the bottom right corner   
