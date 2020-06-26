@@ -14,13 +14,21 @@ The relationship between the three is shown below:
   - Public: Just fork it
   - Private: Get invitation link, then fork it
 2. **SSH key setup**
-  - Git command:
+  - Git command（Windows）:
   ```python
   $ cd ..          # Go to the main directory
   $ ssh-keygen -t rsa -b 4096 -C "chunxia@knights.ucf.edu" # include my GitHub email address
   $ cat .ssh/id_rsa.pub
   ```
   Copy all the output from the last command, go to my GitHub Web--Settings(Top right corner)--SSH and GPG keys--`New SSH key`--paste
+
+  - Git command（Linux）:
+  ```Python
+  $ ssh-keygen -t rsa -b 4096 -C "chunxia@knights.ucf.edu" # include my GitHub email address
+  # This line in the output: Your identification has been saved in /home/ubuntu/.ssh/id_rsa. Your public key has been saved in /home/ubuntu/.ssh/id_rsa.pub.
+  $ cat /home/ubuntu/.ssh/id_rsa.pub
+  ```
+  The other procedures needed are the same as setting up for windows
 3. **Clone to local PC**
   - ATOM : `ctrl+shift+p`, then `GitHub: Clone`. Put down the SSH or HTML of the repository copied from the previous step and the local folder directory
   - Git command: Open **Git Bash**
@@ -32,11 +40,11 @@ The relationship between the three is shown below:
   # ---- Clone with git  ----------------------
   $ git clone git@github.com:chunxia2020/chips.git # clone from this SSH
   # ---- Go to the cloned folder  -------------
-  $ cd chips
+  $ cd chips       # !!!Very important!!!!
   $ ls             # Show visible files
   $ ls -la         # Show visible and invisible files
   # ---- Go to the cloned folder  -------------
-  $ git remote     # Manage set of tracked repositories
+  $ git remote     # Manage set of tracked repositories !!! This only works when you are at the [chips] folder !!!
   origin
   $ git remote -v  # Shows URLs of remote reps when listing your current remote connections
   origin  git@github.com:chunxia2020/chips.git (fetch)
