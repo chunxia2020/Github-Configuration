@@ -23,7 +23,10 @@ The relationship between the three is shown below:
   Copy all the output from the last command, go to my GitHub Web--Settings(Top right corner)--SSH and GPG keys--`New SSH key`--paste
 
   - Git command（Linux）:
+
   ```Python
+  # Check first whether git command is installed
+  $ git --version  # Check if git has been installed and check its version
   $ ssh-keygen -t rsa -b 4096 -C "chunxia@knights.ucf.edu" # include my GitHub email address
   # This line in the output: Your identification has been saved in /home/ubuntu/.ssh/id_rsa. Your public key has been saved in /home/ubuntu/.ssh/id_rsa.pub.
   $ cat /home/ubuntu/.ssh/id_rsa.pub
