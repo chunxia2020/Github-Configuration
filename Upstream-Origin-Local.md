@@ -62,6 +62,11 @@ The relationship between the three is shown below:
      $ git add            # Add changes
      $ git rm             # remove files from the working tree and the index
      $ git status         # Track changes in the branch to commit
+     # When adding no files to a folder and 'untracked files' warning appears
+     $ git add .          # add all files of the current directory to track (including untracked) and then use
+     $ git commit -a      # Commit all tracked files.
+
+     $ git add -A         # An alternative method
      # --- commit ------------------------
      $ git commit -a      # stage all files
      # --- push --------------------------
